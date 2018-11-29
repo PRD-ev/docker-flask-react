@@ -8,5 +8,6 @@ RUN apk --update add \
     python3 \
     python3-dev \
     py-setuptools \
+    libffi \
     gnupg && \
     python3 -m ensurepip

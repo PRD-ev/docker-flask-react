@@ -6,4 +6,5 @@ RUN apk --update add \
     python3 python3-dev py-setuptools \
     build-base libffi-dev gnupg && \
     python3 -m ensurepip && \
+    pip3 install --upgrade pip3 && \
     pip3 install flask
